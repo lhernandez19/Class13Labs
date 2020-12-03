@@ -91,7 +91,7 @@ $(document).ready(function(){
         
         for(var studentInfo of studentsArray)
         {
-            nameOutput += studentInfo.firstName;
+            nameOutput += studentInfo.firstName + ", ";
         }
 
         $("#nameOutput").text(nameOutput);
@@ -118,7 +118,7 @@ $(document).ready(function(){
         
         for(var studentInfo of studentsArray)
         {
-            percentageOutput += studentInfo.calculation;
+            percentageOutput += studentInfo.calculation + ", ";
         }
 
         $("#percentageOutput").text(percentageOutput);
